@@ -1,0 +1,7 @@
+---
+cert_urls: []
+# Provide URLs of certs you want to install. For example:
+# cert_urls:
+#   - "https://gu-st.ru/content/lending/russian_trusted_root_ca_pem.crt"
+#   - "https://gu-st.ru/content/lending/russian_trusted_sub_ca_pem.crt"
+cert_dst: "/etc/ssl/certs/"

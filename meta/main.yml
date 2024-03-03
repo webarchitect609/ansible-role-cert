@@ -1,0 +1,23 @@
+---
+dependencies: []
+galaxy_info:
+  namespace: webarchitect609
+  role_name: cert
+  author: Gripinskiy Sergey
+  description: Installs ca-certs for ssl from the list of URLs.
+  company: ''
+  license: BSD-3-Clause
+  min_ansible_version: '2.1'
+  platforms:
+    - name: Ubuntu
+      versions:
+        # 22.04 LTS
+        - jammy
+        # 20.04 LTS
+        - focal
+        # 18.04 LTS
+        - bionic
+
+  galaxy_tags:
+    - cert
+    - cacert

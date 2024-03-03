@@ -1,0 +1,9 @@
+---
+- name: "Download & install certs"
+  ansible.builtin.get_url:
+    url: "{{ item }}"
+    dest: "{{ cert_dst }}"
+    mode: 0644
+  loop: "{{ cert_urls }}"
+  become: true
+  become_user: root

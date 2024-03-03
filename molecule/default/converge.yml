@@ -1,0 +1,12 @@
+---
+- name: Converge
+  hosts: all
+  become: true
+
+  roles:
+    - role: webarchitect609.cert
+
+  vars:
+    cert_urls:
+      - "https://gu-st.ru/content/lending/russian_trusted_root_ca_pem.crt"
+      - "https://gu-st.ru/content/lending/russian_trusted_sub_ca_pem.crt"
